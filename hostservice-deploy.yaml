@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: tofudocker/node-app
+        image: tofudocker/node-app:1.0
         resources:
           limits:
             memory: "128Mi"
